@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C81A8F1BEABA1300D76F49 /* IBDocumentArchiver+IBUnfuck.h in Sources */ = {isa = PBXBuildFile; fileRef = 26C81A8E1BEABA1300D76F49 /* IBDocumentArchiver+IBUnfuck.h */; };
+		26C81A911BEABC9100D76F49 /* IBDocumentArchiver+IBUnfuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C81A901BEABC9100D76F49 /* IBDocumentArchiver+IBUnfuck.m */; };
+		76312E5B19F26042006D29E5 /* IBUnfuck.xcplugindata in Resources */ = {isa = PBXBuildFile; fileRef = 76312E5A19F26042006D29E5 /* IBUnfuck.xcplugindata */; };
+		76312E5E19F260F1006D29E5 /* FZIBUnfuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 76312E5D19F260F1006D29E5 /* FZIBUnfuck.m */; };
+		76312E6419F262C1006D29E5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 76312E6319F262C1006D29E5 /* JRSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26C81A8E1BEABA1300D76F49 /* IBDocumentArchiver+IBUnfuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IBDocumentArchiver+IBUnfuck.h"; sourceTree = "<group>"; };
+		26C81A901BEABC9100D76F49 /* IBDocumentArchiver+IBUnfuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IBDocumentArchiver+IBUnfuck.m"; sourceTree = "<group>"; };
+		76312E5019F26008006D29E5 /* IBUnfuck.ideplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBUnfuck.ideplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		76312E5419F26008006D29E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76312E5A19F26042006D29E5 /* IBUnfuck.xcplugindata */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.bplist; path = IBUnfuck.xcplugindata; sourceTree = "<group>"; };
+		76312E5C19F260F1006D29E5 /* FZIBUnfuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZIBUnfuck.h; sourceTree = "<group>"; };
+		76312E5D19F260F1006D29E5 /* FZIBUnfuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZIBUnfuck.m; sourceTree = "<group>"; };
+		76312E6219F262C1006D29E5 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		76312E6319F262C1006D29E5 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76312E4D19F26008006D29E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D0F7EE1AEF8CC000B9666F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76312E5C19F260F1006D29E5 /* FZIBUnfuck.h */,
+				76312E5D19F260F1006D29E5 /* FZIBUnfuck.m */,
+				26C81A8E1BEABA1300D76F49 /* IBDocumentArchiver+IBUnfuck.h */,
+				26C81A901BEABC9100D76F49 /* IBDocumentArchiver+IBUnfuck.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		76312E4719F26008006D29E5 = {
+			isa = PBXGroup;
+			children = (
+				76312E5219F26008006D29E5 /* IBUnfuck */,
+				76312E5119F26008006D29E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76312E5119F26008006D29E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76312E5019F26008006D29E5 /* IBUnfuck.ideplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76312E5219F26008006D29E5 /* IBUnfuck */ = {
+			isa = PBXGroup;
+			children = (
+				26D0F7EE1AEF8CC000B9666F /* Classes */,
+				76312E5319F26008006D29E5 /* Supporting Files */,
+			);
+			path = IBUnfuck;
+			sourceTree = "<group>";
+		};
+		76312E5319F26008006D29E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76312E5419F26008006D29E5 /* Info.plist */,
+				76312E5A19F26042006D29E5 /* IBUnfuck.xcplugindata */,
+				76312E6219F262C1006D29E5 /* JRSwizzle.h */,
+				76312E6319F262C1006D29E5 /* JRSwizzle.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76312E4F19F26008006D29E5 /* IBUnfuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76312E5719F26008006D29E5 /* Build configuration list for PBXNativeTarget "IBUnfuck" */;
+			buildPhases = (
+				76312E4C19F26008006D29E5 /* Sources */,
+				76312E4D19F26008006D29E5 /* Frameworks */,
+				76312E4E19F26008006D29E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBUnfuck;
+			productName = IBUnfuck;
+			productReference = 76312E5019F26008006D29E5 /* IBUnfuck.ideplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76312E4819F26008006D29E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Inline-Studios";
+				TargetAttributes = {
+					76312E4F19F26008006D29E5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 76312E4B19F26008006D29E5 /* Build configuration list for PBXProject "IBUnfuck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76312E4719F26008006D29E5;
+			productRefGroup = 76312E5119F26008006D29E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76312E4F19F26008006D29E5 /* IBUnfuck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76312E4E19F26008006D29E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76312E5B19F26042006D29E5 /* IBUnfuck.xcplugindata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76312E4C19F26008006D29E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76312E5E19F260F1006D29E5 /* FZIBUnfuck.m in Sources */,
+				26C81A911BEABC9100D76F49 /* IBDocumentArchiver+IBUnfuck.m in Sources */,
+				76312E6419F262C1006D29E5 /* JRSwizzle.m in Sources */,
+				26C81A8F1BEABA1300D76F49 /* IBDocumentArchiver+IBUnfuck.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		76312E5519F26008006D29E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		76312E5619F26008006D29E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		76312E5819F26008006D29E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				INFOPLIST_FILE = "IBUnfuck/Supporting Files/Info.plist";
+				INSTALL_PATH = "$HOME/Library/Developer/Xcode/Plug-ins/";
+				PRODUCT_NAME = IBUnfuck;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = ideplugin;
+			};
+			name = Debug;
+		};
+		76312E5919F26008006D29E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				INFOPLIST_FILE = "IBUnfuck/Supporting Files/Info.plist";
+				INSTALL_PATH = "$HOME/Library/Developer/Xcode/Plug-ins/";
+				PRODUCT_NAME = IBUnfuck;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = ideplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76312E4B19F26008006D29E5 /* Build configuration list for PBXProject "IBUnfuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76312E5519F26008006D29E5 /* Debug */,
+				76312E5619F26008006D29E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76312E5719F26008006D29E5 /* Build configuration list for PBXNativeTarget "IBUnfuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76312E5819F26008006D29E5 /* Debug */,
+				76312E5919F26008006D29E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76312E4819F26008006D29E5 /* Project object */;
+}
