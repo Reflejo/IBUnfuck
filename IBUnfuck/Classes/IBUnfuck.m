@@ -1,13 +1,10 @@
 #import "IBDocumentArchiver+IBUnfuck.h"
-#import "FZIBUnfuck.h"
+#import "IBUnfuck.h"
 #import "JRSwizzle.h"
 
-@implementation FZIBUnfuck
+@implementation IBUnfuck
 
-/**
- Main plugin initialization.
- */
-+ (void)ide_initializeWithOptions:(int)options error:(NSError **)error
++ (void)pluginDidLoad:(NSBundle *)plugin
 {
     Class IBDocumentArchiver = NSClassFromString(@"IBDocumentArchiver");
 
