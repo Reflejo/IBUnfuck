@@ -13,6 +13,9 @@
 		267DAF2E1BEAD6BC00134C07 /* IBUnfuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DAF2D1BEAD6BC00134C07 /* IBUnfuck.m */; };
 		267DAF3A1BEAD79500134C07 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DAF391BEAD79500134C07 /* JRSwizzle.m */; };
 		267DAF3D1BEAD82100134C07 /* IBDocumentArchiver+IBUnfuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DAF3C1BEAD82100134C07 /* IBDocumentArchiver+IBUnfuck.m */; };
+		26EE05751BEAE2F80020A021 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EE05741BEAE2F80020A021 /* IDEKit.framework */; };
+		26EE05771BEAE3BA0020A021 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EE05761BEAE3BA0020A021 /* IDEFoundation.framework */; };
+		26EE05791BEAE3C00020A021 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EE05781BEAE3C00020A021 /* DVTKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		267DAF391BEAD79500134C07 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		267DAF3B1BEAD82100134C07 /* IBDocumentArchiver+IBUnfuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IBDocumentArchiver+IBUnfuck.h"; sourceTree = "<group>"; };
 		267DAF3C1BEAD82100134C07 /* IBDocumentArchiver+IBUnfuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IBDocumentArchiver+IBUnfuck.m"; sourceTree = "<group>"; };
+		26EE05741BEAE2F80020A021 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		26EE05761BEAE3BA0020A021 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
+		26EE05781BEAE3C00020A021 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +40,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26EE05771BEAE3BA0020A021 /* IDEFoundation.framework in Frameworks */,
 				267DAF251BEAD6BC00134C07 /* AppKit.framework in Frameworks */,
+				26EE05791BEAE3C00020A021 /* DVTKit.framework in Frameworks */,
+				26EE05751BEAE2F80020A021 /* IDEKit.framework in Frameworks */,
 				267DAF271BEAD6BC00134C07 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +71,9 @@
 		267DAF231BEAD6BC00134C07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				26EE05781BEAE3C00020A021 /* DVTKit.framework */,
+				26EE05761BEAE3BA0020A021 /* IDEFoundation.framework */,
+				26EE05741BEAE2F80020A021 /* IDEKit.framework */,
 				267DAF241BEAD6BC00134C07 /* AppKit.framework */,
 				267DAF261BEAD6BC00134C07 /* Foundation.framework */,
 			);
@@ -248,6 +260,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
 				INFOPLIST_FILE = "IBUnfuck/Supporting Files/Info.plist";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -263,6 +279,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
 				INFOPLIST_FILE = "IBUnfuck/Supporting Files/Info.plist";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
